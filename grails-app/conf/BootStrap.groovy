@@ -1,6 +1,6 @@
 import grails.util.Environment
-import grailsproject.Student
-import grailsproject.User
+import com.rkshakyaprojects.studentmgmt.Student
+import com.rkshakyaprojects.studentmgmt.User
 
 class BootStrap {
 
@@ -23,7 +23,7 @@ class BootStrap {
         }
 
         new Student(firstName: "Raunak", lastName: "Shakya", gender: "Male", age: 23, grade: "Twelve", dateOfBirth: (new Date() - 360), city: "Kathmandu", state: "Bagmati", telephone: 9813138620, email: "raunak@live.com", dateOfAdmission: (new Date())).save()
-        new Student(firstName: "Rajesh", lastName: "Pradhan", gender: "Male", age: 25, grade: "Twelve", dateOfBirth: (new Date() - 360), city: "Kathmandu", state: "Bagmati", telephone: 9813138677, email: "rajesh@live.com", dateOfAdmission: (new Date())).save()
+        new Student(firstName: "Rajesh", lastName: "Shakya", gender: "Male", age: 25, grade: "Twelve", dateOfBirth: (new Date() - 360), city: "Kathmandu", state: "Bagmati", telephone: 9813138677, email: "rajesh@live.com", dateOfAdmission: (new Date())).save()
         new Student(firstName: "Ronish", lastName: "Shakya", gender: "Male", age: 23, grade: "Eleven", dateOfBirth: new Date(), city: "Kathmandu", state: "Bagmati", telephone: 9813138644, email: "ronish@live.com", dateOfAdmission: (new Date())).save()
     }
 

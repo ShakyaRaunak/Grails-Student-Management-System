@@ -1,4 +1,4 @@
-<%@ page import="grailsproject.User" %>
+<%@ page import="com.rkshakyaprojects.studentmgmt.User" %>
 
 
 

@@ -1,5 +1,5 @@
 
-<%@ page import="grailsproject.User" %>
+<%@ page import="com.rkshakyaprojects.studentmgmt.User" %>
 <!DOCTYPE html>
 <html>
 	<head>
