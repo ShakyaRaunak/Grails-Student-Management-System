@@ -1,4 +1,4 @@
-package grailsproject
+package com.rkshakyaprojects.studentmgmt
 
 class UserController {
 
